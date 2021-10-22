@@ -8,8 +8,8 @@ function printWeather(weatherData) {
 }
 
 function getWeatherData(zipCode) {
-  // api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=metric&appid=144beb3b71d28feb72e7e622ed4fa528
-  // API Key: 144beb3b71d28feb72e7e622ed4fa528
+  // api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=metric&appid=
+  // API Key:
   try {
     const request = https.get(
       `api.openweathermap.org/data/2.5/weather?zip=${zipCode}&units=metric&appid=${api.key}`,
